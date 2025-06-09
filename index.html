@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Browser Sweeper</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div style="padding-top: 2rem">
+            <h1 id="title">Browser Sweeper 💣</h1>
+        </div>
+        <div id="field"></div>
+        <div id="controls">
+            <div id="presets">
+                <div
+                    id="small"
+                    data-width="9"
+                    data-height="9"
+                    data-mine-count="10"
+                >
+                    Small
+                </div>
+                <div
+                    id="medium"
+                    data-width="15"
+                    data-height="11"
+                    data-mine-count="35"
+                >
+                    Medium
+                </div>
+                <div
+                    id="large"
+                    data-width="25"
+                    data-height="21"
+                    data-mine-count="100"
+                >
+                    Large
+                </div>
+            </div>
+            <div id="clock">00:00</div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
